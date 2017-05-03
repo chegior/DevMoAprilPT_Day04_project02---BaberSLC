@@ -3,6 +3,10 @@ body{
 
 }
 
+button {
+
+}
+
 /*CLASSES*/
 /*CLASSES*/
 /*CLASSES*/
@@ -44,4 +48,73 @@ body{
   padding: 5px 8px;
   background: rgb(221, 221, 221);
 
+}
+
+.header_section{
+
+  display: flex;
+  flex-direction: column;
+  background: url("https://barbiereslc.com/img/BarbSLC-6.jpg") ;
+  background-size:cover;
+  background-position: center;
+
+}
+.header_section p {
+  font-weight:5;
+  font-family: arial;
+  text-align: center;
+  color:rgb(241, 244, 243);
+  letter-spacing: 9px;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(244, 250, 248);/*color for letter and border*/
+  height:250px;
+}
+
+.top{
+  justify-content:flex-end;
+}
+
+
+.bottom{
+  justify-content:flex-start;
+}
+
+.sub_logo {
+
+  height: auto;
+  width: auto;
+  border: 8px solid rgb(244, 250, 248);
+}
+.sub_logo p{
+  color: rgb(244, 250, 248);
+  font-weight: bolder;
+  margin: 5px 15px;
+  font-size: 30px;
+  padding: 2px 1px;
+  letter-spacing: 0.2em;
+}
+
+.sub_botton{
+  height: auto;
+  width: auto;
+}
+
+.button{
+  background: rgb(244, 250, 248);
+  margin: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button p{
+  color: rgb(59, 70, 80);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing:1px;
+  padding: 12px 10px;
 }
