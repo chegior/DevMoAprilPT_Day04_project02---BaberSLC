@@ -200,3 +200,14 @@ button {
   font-weight: bold;
 
 }
+.social_media{
+  background: rgb(244, 250, 248);
+}
+.social_media h1{
+  text-align: center;
+}
+
+.sm_logos{
+  display: flex;
+  flex-direction: row;
+}
